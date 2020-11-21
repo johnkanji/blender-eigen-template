@@ -1,0 +1,7 @@
+**/__pycache__/
+build/
+external/
+.vscode/
+
+**/*.so
+**/.DS_Store
