@@ -52,18 +52,18 @@ By default it will recompile the C++ source and copy the library into the
 `cppTemplate` directory.
 
 ### Manual Installation
-You can also choose to install the addon manually. To do this copy the comiled
+You can also choose to install the addon manually. To do this copy the compiled
 library from `build` to `cppTemplate`, then zip the cppTemplate directory and 
-install it using in Blender under Preferences -> Addons -> Install.
+install it in Blender under Preferences -> Addons -> Install.
 
 ## Utilities
 In addition to the addon skeleton, the template includes a couple
 of useful development utilities in the `cppTemplate/utils` directory.
 
 ### NumpyMesh
-`NumpyMesh` is a context manager which handler transfering mesh
+`NumpyMesh` is a context manager which handles transfering mesh
 data between Numpy and Blender. Wrap your geometry code in
-in a NumpyMesh context and it'll handle extracting the vertices
+in a `NumpyMesh` context and it'll handle extracting the vertices
 and faces into numpy `ndarray`s and putting them back into the
 Blender mesh object when you're done
 ```
