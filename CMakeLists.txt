@@ -39,7 +39,7 @@ download_project(
     DOWNLOAD_DIR ${EXTERNAL_DEP_DIR}/.cache/libigl
     QUIET
     GIT_REPOSITORY https://github.com/libigl/libigl
-    GIT_TAG master
+    GIT_TAG main
 )
 list(APPEND CMAKE_MODULE_PATH ${EXTERNAL_DEP_DIR}/libigl/cmake)
 include(libigl)
