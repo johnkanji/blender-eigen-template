@@ -1,6 +1,6 @@
 # Blender-Eigen Addon Template
 
-An template for building Blender addons with C++ and Eigen based on [numpyeigen](https://github.com/fwilliams/numpyeigen). 
+A template for building Blender addons with C++ and Eigen based on [numpyeigen](https://github.com/fwilliams/numpyeigen). 
 
 This template implements a simple Blender addon including a
 C++ shared library, a Blender operator and a UI panel.
